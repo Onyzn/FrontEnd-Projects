@@ -14,6 +14,8 @@ body {
 
 .links a {
     text-decoration: solid;
+    /* font-weight: bold; */
+    font-size: larger;
     padding: 5px;
 }
 
@@ -44,7 +46,9 @@ body {
 }
 
 .bigcard {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 30px;
     background-color: #ffffff;
     border: solid #e1e1e1 1px;
@@ -54,7 +58,7 @@ body {
 
 .bigcard h1 {
     color: #bc160b;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .bigcard h3 {
@@ -69,6 +73,9 @@ body {
 }
 
 .card {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 30px;
     background-color: #000000;
     border: solid #e1e1e1 1px;
