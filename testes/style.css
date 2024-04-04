@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    height: 20rem;
+    width: 20rem;
+    line-height: 20rem;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+.buttons button {
+    height: 10rem;
+    width: 10rem;
+}

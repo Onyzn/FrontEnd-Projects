@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
+    
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    
+    <script defer src="script.js"></script>
+  </head>
+  <body>
     <div class="calc">
-        <div class="display">
-            20.000
-        </div>
-
-        <div class="buttons">
-            <button class="num">1</button>
-            <button class="num">2</button>
-            <button class="num">3</button>
-            <button>/</button>
-            <button class="num">4</button>
-            <button class="num">5</button>
-            <button class="num">6</button>
-            <button>*</button>
-            <button class="num">7</button>
-            <button class="num">8</button>
-            <button class="num">9</button>
-            <button>-</button>
-            <button>.</button>
-            <button class="num">0</button>
-            <button>C</button>
-            <button>+</button>
-            <button class="eq">=</button>
-        </div>
+      <div class="input">
+        1.234 + 657
+      </div>
+      
+      <div class="buttons">
+         <button class="light">C</button>
+         <button class="light"><</button>
+         <button class="blue">%</button>
+         <button class="blue">/</button>
+        
+        <button class="dark">9</button>
+        <button class="dark">8</button>
+        <button class="dark">7</button>
+        <button class="blue">*</button>
+        
+        <button class="dark">6</button>
+        <button class="dark">5</button>
+        <button class="dark">4</button>
+        <button class="blue">-</button>
+        
+        <button class="dark">3</button>
+        <button class="dark">2</button>
+        <button class="dark">1</button>
+        <button class="blue">+</button>
+        
+        <button class="dark big">0</button>
+        <button class="dark">.</button>
+        <button class="blue">=</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
