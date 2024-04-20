@@ -1,0 +1,146 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #211a30;
+    padding: 0.5rem 2rem;
+}
+
+nav img {
+    height: 4rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 6rem;
+}
+
+.hero-display {
+    max-width: 30rem;
+}
+
+.hero-display h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.hero-display p {
+    color: #7e7296;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.hero img {
+    height: 25rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.discord-card {
+    margin: 4rem;
+    padding: 2rem;
+    max-width: 1080px;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #7289DA;   
+}
+
+.discord-card img {
+    height: 4rem;
+}
+
+.discord-card h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.discord-card p {
+    color: #D5DCF4;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    background-color: #211a30;
+}
+
+.card span {
+    color: #a8a8a8;
+}
+
+.card h3 {
+    font-size: 2rem;
+}
+
+.card p {
+    color: #7e7296;
+    margin-bottom: 1rem;
+}
+
+.mb2 {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    
+    height: 16rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+
+.info-container img {
+    cursor: pointer;
+    z-index: 1;
+    height: 2rem;
+    filter: brightness(80%);
+}
+
+.info-container img:hover {
+    filter: brightness(100%);
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: #211a30;
+    padding: 2rem;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+footer a {
+    color: #7289DA;
+}

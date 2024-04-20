@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: JetBrains Mono; */
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #2B223D;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    color: #fff;
+    background-color: #1d1729;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    color: #1d1729;
+    background-color: #fff;
+    cursor: pointer;
+}
